@@ -1,6 +1,8 @@
 package com.devsuperior.dslist.entities;
 import java.util.Objects;
 
+import java.util.Objects;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -9,27 +11,32 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="tb_game")
+@Table(name = "tb_game")
 public class Game {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String title;
-
-	@Column(name="game_year")	//year reservada BD foi trocado de nome somente no db
+	
+	@Column(name = "game_year")
 	private Integer year;
 	private String genre;
 	private String platforms;
 	private Double score;
 	private String imgUrl;
+	
+	@Column(columnDefinition = "TEXT")	//muda o tipo do BD para tipo texto que suporta mais 255 char
 	private String shortDescription;
+
+	@Column(columnDefinition = "TEXT")	//muda o tipo do BD para tipo texto que suporta mais 255 char
 	private String longDescription;
 	
-	public Game() {}
-	
-    public Game(Long id, String title, Integer year, String genre, String platforms,
-            Double score, String imgUrl, String shortDescription, String longDescription) {
+    public Game() {
+    }
+    
+	public Game(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUrl,
+			String shortDescription, String longDescription) {
 		this.id = id;
 		this.title = title;
 		this.year = year;
@@ -38,12 +45,11 @@ public class Game {
 		this.score = score;
 		this.imgUrl = imgUrl;
 		this.shortDescription = shortDescription;
-		this.longDescription = longDescription;
-    } 
-
+		this.longDescription = longDescription;		
+	}
 
 	public Long getId() {
-		return this.id;
+		return id;
 	}
 
 	public void setId(Long id) {
@@ -51,7 +57,7 @@ public class Game {
 	}
 
 	public String getTitle() {
-		return this.title;
+		return title;
 	}
 
 	public void setTitle(String title) {
@@ -59,7 +65,7 @@ public class Game {
 	}
 
 	public Integer getYear() {
-		return this.year;
+		return year;
 	}
 
 	public void setYear(Integer year) {
@@ -67,7 +73,7 @@ public class Game {
 	}
 
 	public String getGenre() {
-		return this.genre;
+		return genre;
 	}
 
 	public void setGenre(String genre) {
@@ -75,7 +81,7 @@ public class Game {
 	}
 
 	public String getPlatforms() {
-		return this.platforms;
+		return platforms;
 	}
 
 	public void setPlatforms(String platforms) {
@@ -83,7 +89,7 @@ public class Game {
 	}
 
 	public Double getScore() {
-		return this.score;
+		return score;
 	}
 
 	public void setScore(Double score) {
@@ -91,7 +97,7 @@ public class Game {
 	}
 
 	public String getImgUrl() {
-		return this.imgUrl;
+		return imgUrl;
 	}
 
 	public void setImgUrl(String imgUrl) {
@@ -99,15 +105,15 @@ public class Game {
 	}
 
 	public String getShortDescription() {
-		return this.shortDescription;
+		return shortDescription;
 	}
 
-	public void setShotDescription(String shortDescription) {
+	public void setShortDescription(String shortDescription) {
 		this.shortDescription = shortDescription;
 	}
 
 	public String getLongDescription() {
-		return this.longDescription;
+		return longDescription;
 	}
 
 	public void setLongDescription(String longDescription) {
@@ -130,6 +136,4 @@ public class Game {
 		Game other = (Game) obj;
 		return Objects.equals(id, other.id);
 	}
-
-
 }
