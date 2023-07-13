@@ -1,0 +1,16 @@
+package com.devsuperior.dslist.dto;
+
+
+
+public class GameMinDto {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	private String title;
+	private Integer year;
+	private String imgUrl;
+	private String shortDescription;
+	
+
+}
