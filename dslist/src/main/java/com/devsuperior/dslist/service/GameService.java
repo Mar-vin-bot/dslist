@@ -19,6 +19,8 @@ public class GameService {
 		List<Game> result = repo.findAll();
 		 return result.stream().map(gameElement -> new GameMinDto(gameElement)).toList();
 	}
+
+	
 	
 
 }

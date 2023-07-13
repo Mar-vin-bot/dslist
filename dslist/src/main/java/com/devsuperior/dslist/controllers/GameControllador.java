@@ -24,6 +24,6 @@ public class GameControllador {
 		return result;
 	}
 
-	//teste
+
 
 }
