@@ -1,0 +1,8 @@
+package com.devsuperior.dslist.entities;
+
+public class BelongingPk {
+	
+	private Game game;
+	private GameList gameList;
+
+}

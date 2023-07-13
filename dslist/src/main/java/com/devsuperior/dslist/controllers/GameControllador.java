@@ -23,12 +23,13 @@ public class GameControllador {
 		List<GameMinDto> result = service.findAll();
 		return result;
 	}
-
+/*
 	@GetMapping(value = '/{id}')
 	public GameDto findById(@PathVariable Long id){
 		GameDto result = service.findById(id);
 		return result;
 	}
+*/
 
 
 

@@ -9,23 +9,27 @@ import com.devsuperior.dslist.dto.GameMinDto;
 import com.devsuperior.dslist.entities.Game;
 import com.devsuperior.dslist.repository.GameRepository;
 
+import org.springframework.transaction.annotation.Transactional;
+
 @Service
 public class GameService {
 	
 	@Autowired
 	private GameRepository repo;
 	
-	@Transactional(readyOnly = true)
+	@Transactional(readOnly = true)
 	public List<GameMinDto> findAll(){
 		List<Game> result = repo.findAll();
 		 return result.stream().map(gameElement -> new GameMinDto(gameElement)).toList();
 	}
-
+	
+/*
 	@Transactional(readyOnly = true)
 	public GameDto findById(Long id){
 		Game obj = repo.findById(id).get();
 		return new GameDto(obj);
 	}
+*/
 
 	
 	
