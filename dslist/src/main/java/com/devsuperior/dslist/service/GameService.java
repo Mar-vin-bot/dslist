@@ -15,9 +15,16 @@ public class GameService {
 	@Autowired
 	private GameRepository repo;
 	
+	@Transactional(readyOnly = true)
 	public List<GameMinDto> findAll(){
 		List<Game> result = repo.findAll();
 		 return result.stream().map(gameElement -> new GameMinDto(gameElement)).toList();
+	}
+
+	@Transactional(readyOnly = true)
+	public GameDto findById(Long id){
+		Game obj = repo.findById(id).get();
+		return new GameDto(obj);
 	}
 
 	
