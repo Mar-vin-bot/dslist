@@ -1,0 +1,13 @@
+package com.devsuperior.dslist.projections;
+
+public interface GameMinProjection {
+
+	Long getId();
+	String getTile();
+	Integer getYear();
+	String getImgUrl();
+	String shortDescription();
+	Integer getPosition();
+	
+	
+}
