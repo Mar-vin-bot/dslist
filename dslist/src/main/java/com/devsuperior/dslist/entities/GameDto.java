@@ -18,6 +18,7 @@ public class GameDto {
     public GameDto() {
     }
     
+    //BeanUtils como os campos são os msm Game e GameDto pode usar essa anotação que simplifica
 	public GameDto(Game game) {
         BeanUtils.copyProperties(game, this);
 	}
