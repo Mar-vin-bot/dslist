@@ -1,4 +1,4 @@
-!SESSION 2023-07-11 20:50:54.799 -----------------------------------------------
+!SESSION 2023-07-15 16:31:32.564 -----------------------------------------------
 eclipse.buildId=4.13.1.202201311654
 java.version=17.0.1
 java.vendor=Eclipse Adoptium
@@ -6,26 +6,26 @@ BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
-!ENTRY org.eclipse.ui 2 0 2023-07-11 20:55:01.627
+!ENTRY org.eclipse.ui 2 0 2023-07-15 16:31:42.934
 !MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
-!SUBENTRY 1 org.eclipse.ui 2 0 2023-07-11 20:55:01.627
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-07-15 16:31:42.934
 !MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
 
-!ENTRY com.genuitec.eclipse.theming.ui 1 0 2023-07-11 20:55:02.838
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2023-07-15 16:31:43.899
 !MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
 
-!ENTRY com.genuitec.eclipse.theming.ui 1 0 2023-07-11 20:55:02.873
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2023-07-15 16:31:43.957
 !MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
 
-!ENTRY org.eclipse.jface 2 0 2023-07-11 20:55:05.200
+!ENTRY org.eclipse.jface 2 0 2023-07-15 16:31:45.263
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-11 20:55:05.200
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-15 16:31:45.263
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
 		Open a type in a Java editor,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3100b5cf,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ce1cc03,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -33,17 +33,17 @@ Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
 		,
 		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7baea18b,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b1e63b5,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-11 20:55:05.200
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-07-15 16:31:45.263
 !MESSAGE A conflict occurred for ALT+SHIFT+R:
 Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
 		Rename the selected element,
 		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ad13be4,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@186537ac,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -51,94 +51,10 @@ Binding(ALT+SHIFT+R,
 	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
 		Rename the selected item,
 		Category(org.eclipse.ui.category.file,File,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e93f91d,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4733662d,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-07-11 20:55:14.339
-!MESSAGE Using unsafe http transport to retrieve http://downloads.genuitec.com/downloads/products/devstyle/updates/ds20230615, see CVE-2021-41033. Consider using https instead.
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-07-11 20:55:15.396
-!MESSAGE Using unsafe http transport to retrieve http://downloads.genuitec.com/downloads/products/devstyle/updates/ds20230615, see CVE-2021-41033. Consider using https instead.
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-07-11 20:55:20.312
-!MESSAGE Using unsafe http transport to retrieve http://downloads.genuitec.com/downloads/products/codetogether/updates/ct20230419/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:20.693
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.core.common.platform,13.0.2.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:20.696
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.meexplorer,13.0.1.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:20.698
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.core.common.rss,13.0.2.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:20.699
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.inlinesearch,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:21.645
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.monitor,13.0.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:21.646
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.meexplorer.jdt,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:21.650
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.news,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:21.855
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.patches,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:22.203
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.startup,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:22.205
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.startup.workspace,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:22.608
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.base,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:22.867
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.core,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:22.916
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.css,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:23.266
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.epl,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:23.434
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.scrollbar,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:23.952
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.ui,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:24.332
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.ui.common.platform,13.0.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:25.518
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.webclipse.evergreen,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:25.848
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.webicons,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:25.854
-!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipsecolortheme.api,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:26.054
-!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.base.feature,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:26.349
-!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.common.explorer.jdt.feature,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:26.533
-!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.core.feature,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2023-07-11 20:55:26.553
-!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.feature,1.11.0.202306151725.
-
-!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-07-11 21:01:39.566
-!MESSAGE Using unsafe http transport to retrieve http://downloads.genuitec.com/downloads/products/devstyle/updates/ds20230615, see CVE-2021-41033. Consider using https instead.
-
-!ENTRY org.eclipse.ui 2 2 2023-07-11 21:01:43.786
+!ENTRY org.eclipse.ui 2 2 2023-07-15 16:33:10.137
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
