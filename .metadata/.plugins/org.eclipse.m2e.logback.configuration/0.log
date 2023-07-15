@@ -1413,3 +1413,45 @@
 2023-07-13 22:02:05,292 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2023-07-13 22:02:05,295 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-07-13 22:02:05,295 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/m12/Documentos/GitHub/semanaSpringNelio2023-7/dslist/src/test/resources
+2023-07-13 22:04:58,844 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@5a4d5860{STOPPING}[10.0.6,sto=0]
+2023-07-13 22:04:58,855 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@60348e89{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-07-13 22:04:58,869 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@581bad62{/help,null,STOPPED}
+2023-07-14 18:59:40,493 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-14 19:04:41,095 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-14 19:04:50,901 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-14 19:04:50,919 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-07-14 19:04:51,060 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-14 19:04:51,114 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-14 19:04:51,114 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/m12/Documentos/GitHub/semanaSpringNelio2023-7/dslist/src/test/resources
+2023-07-15 07:41:04,153 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-07-15 08:09:17,524 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-15 08:09:36,355 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 08:09:36,369 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-07-15 08:09:36,408 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-15 08:09:36,433 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 08:09:36,433 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/m12/Documentos/GitHub/semanaSpringNelio2023-7/dslist/src/test/resources
+2023-07-15 08:11:01,743 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 08:11:01,749 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-15 08:11:01,751 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-07-15 08:11:01,760 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 08:11:01,760 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/m12/Documentos/GitHub/semanaSpringNelio2023-7/dslist/src/test/resources
+2023-07-15 08:14:00,120 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 08:14:00,121 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-15 08:14:00,128 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-07-15 08:14:00,134 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 08:14:00,134 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/m12/Documentos/GitHub/semanaSpringNelio2023-7/dslist/src/test/resources
+2023-07-15 08:14:25,195 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 08:14:25,196 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-15 08:14:25,197 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-07-15 08:14:25,207 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 08:14:25,207 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/m12/Documentos/GitHub/semanaSpringNelio2023-7/dslist/src/test/resources
+2023-07-15 09:05:46,530 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 09:05:46,531 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-15 09:05:46,537 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-07-15 09:05:46,548 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 09:05:46,548 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/m12/Documentos/GitHub/semanaSpringNelio2023-7/dslist/src/test/resources
+2023-07-15 09:05:52,831 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 09:05:52,831 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-15 09:05:52,833 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-07-15 09:05:52,837 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-15 09:05:52,837 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/m12/Documentos/GitHub/semanaSpringNelio2023-7/dslist/src/test/resources

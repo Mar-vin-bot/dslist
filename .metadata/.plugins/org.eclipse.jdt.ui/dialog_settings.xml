@@ -47,6 +47,9 @@
 		<item key="LimitValue" value="10"/>
 		<item key="SkipNull" value="false"/>
 		<item key="ToStringTemplateSelected" value="0"/>
+		<item key="InstanceOf" value="false"/>
+		<item key="Blocks" value="false"/>
+		<item key="Objects.equals &amp; Objects.hash" value="true"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item key="SortOrdering" value="false"/>
@@ -80,5 +83,12 @@
 	<section name="RefactoringWizard.preview">
 		<item key="width" value="600"/>
 		<item key="height" value="400"/>
+	</section>
+	<section name="DialogBounds_GenerateHashCodeEqualsDialog">
+		<item key="DIALOG_X_ORIGIN" value="418"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_WIDTH" value="496"/>
+		<item key="DIALOG_HEIGHT" value="590"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|10.0|0|GTK|1|"/>
 	</section>
 </section>
