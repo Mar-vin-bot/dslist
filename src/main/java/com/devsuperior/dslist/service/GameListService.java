@@ -27,30 +27,51 @@ public class GameListService {
 		List<GameList> result = repo.findAll();
 		return result.stream().map(element -> new GameListDto(element)).toList();
 	}
-
+	
+	//Solução do Nelio
+	 @Transactional(readOnly = true)
+	  public void move(Long listId, int origemPosition, int destinoPosition) {
+	  
+	  // busca lista por id
+	  List<GameMinProjection> list = gameRepo.searchByList(listId);
+	  // remove obj da lista oldPosition
+	  GameMinProjection obj = list.remove(origemPosition);
+	  // inseri obj em newPosition
+	  list.add(destinoPosition, obj);
+	  
+	  //repo.updateBelongingPosition(listId, list.get(i).getId(), i);
+	  
+	  // Atualiza as posições dos jogos
+	  int min = Math.min(origemPosition, destinoPosition);
+	  int max = Math.max(origemPosition, destinoPosition);
+	 
+	  
+	  for (int i = min; i <= max; i++) {
+	  repo.updateBelongingPosition(listId, list.get(i).getId(), i);
+	  }
+	  }
+	 
+/*
 	@Transactional(readOnly = true)
 	public void move(Long listId, int origemPosition, int destinoPosition) {
-
-		// busca lista por id
 		List<GameMinProjection> list = gameRepo.searchByList(listId);
-		// remove obj da lista oldPosition
 		GameMinProjection obj = list.remove(origemPosition);
-		// inseri obj em newPosition
 		list.add(destinoPosition, obj);
 
-		int min = origemPosition < destinoPosition ? origemPosition : destinoPosition;
-		int max = origemPosition < destinoPosition ? destinoPosition : origemPosition;
+		//repo.updateBelongingPosition(listId, obj.getId(), destinoPosition);
 
-		for (int i = min; i <= max; i++) {
+		//loop need for update position for not repeat position
+		for (int i = 0; i <= list.size()-1; i++) {
 			repo.updateBelongingPosition(listId, list.get(i).getId(), i);
 		}
 	}
+*/
 
 }
 
 /*
- SELECT TB_BELONGING.* , TB_GAME.TITLE FROM TB_BELONGING
-INNER JOIN TB_GAME ON TB_GAME.ID = TB_BELONGING.GAME_ID
-  WHERE LIST_ID = 2
-  ORDER BY POSITION;
+ * SELECT TB_BELONGING.* , TB_GAME.TITLE FROM TB_BELONGING
+ * INNER JOIN TB_GAME ON TB_GAME.ID = TB_BELONGING.GAME_ID
+ * WHERE LIST_ID = 2
+ * ORDER BY POSITION;
  */
