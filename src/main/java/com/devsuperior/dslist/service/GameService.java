@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.devsuperior.dslist.dto.GameDto;
 import com.devsuperior.dslist.dto.GameMinDto;
 import com.devsuperior.dslist.entities.Game;
-import com.devsuperior.dslist.entities.GameDto;
 import com.devsuperior.dslist.projections.GameMinProjection;
 import com.devsuperior.dslist.repository.GameRepository;
 
@@ -18,6 +18,7 @@ public class GameService {
 	
 	@Autowired
 	private GameRepository repo;
+
 	
 	@Transactional(readOnly = true)
 	public List<GameMinDto> findAll(){
