@@ -38,11 +38,19 @@ public class GameListService {
 		// inseri obj em newPosition
 		list.add(destinoPosition, obj);
 
+		int min = origemPosition < destinoPosition ? origemPosition : destinoPosition;
+		int max = origemPosition < destinoPosition ? destinoPosition : origemPosition;
 
+		for (int i = min; i <= max; i++) {
+			repo.updateBelongingPosition(listId, list.get(i).getId(), i);
+		}
 	}
 
 }
 
-/*SELECT * FROM TB_BELONGING 
-WHERE LIST_ID = 2
-ORDER BY POSITION; */
+/*
+ SELECT TB_BELONGING.* , TB_GAME.TITLE FROM TB_BELONGING
+INNER JOIN TB_GAME ON TB_GAME.ID = TB_BELONGING.GAME_ID
+  WHERE LIST_ID = 2
+  ORDER BY POSITION;
+ */
